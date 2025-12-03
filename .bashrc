@@ -1,0 +1,1 @@
+alias ns='nix-shell'
