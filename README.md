@@ -2,4 +2,5 @@
 Environments and Programs Configs
 
 ## Preconditions 
-Install Nix https://nix.dev/install-nix
+1. Install Nix https://nix.dev/install-nix
+2. Install to Linux https://starship.rs/guide/
