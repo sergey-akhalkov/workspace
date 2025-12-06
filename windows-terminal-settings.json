@@ -33,6 +33,7 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+    "firstWindowPreference": "defaultProfile",
     "keybindings": 
     [
         {
@@ -85,7 +86,8 @@
                 "hidden": false,
                 "icon": "https://camo.githubusercontent.com/b541ca2a2a71afe4adfe3973255425a6602606f2522e7fc05ed4354a30491706/68747470733a2f2f692e696d6775722e636f6d2f58357a4b7876702e706e67",
                 "name": "Linux",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
+                "tabTitle": "Linux"
             }
         ]
     },
