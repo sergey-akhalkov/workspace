@@ -9,7 +9,7 @@ status --is-interactive; and source (jump shell fish | psub)
 # Fish syntax highlighting
 set -g fish_color_autosuggestion '555'  'brblack'
 set -g fish_color_cancel -r
-set -g fish_color_command 'brgreen' '--bold'
+set -g fish_color_command 'brwhite' '--bold'
 set -g fish_color_comment red
 set -g fish_color_cwd green
 set -g fish_color_cwd_root red
