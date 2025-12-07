@@ -24,18 +24,27 @@
 
   programs.bash.shellInit = ''
     eval "$(starship init bash)"
-  '';
+    fish
+  '';  
 
   # Install default system packages
   environment.systemPackages = with pkgs; [
+    jump
     git
     lazygit
     neovim
     vimPlugins.LazyVim
+    fish
     starship
   ];
 
-
+  programs.fish = {
+    enable = true;
+    promptInit = ''
+      starship init fish | source
+    '';
+  };
+ 
   # Install fonts
   fonts.packages = with pkgs; [
     nerd-fonts.fira-code
