@@ -1,4 +1,3 @@
-  GNU nano 8.6                                                                   /etc/nixos/configuration.nix
 # Edit this configuration file to define what should be installed on
 # your system. Help is available in the configuration.nix(5) man page, on
 # https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
@@ -14,8 +13,12 @@
     <nixos-wsl/modules>
   ];
 
+  networking.hostName = "noilwhite-pc";
+
+  time.timeZone = "Europe/Moscow";
+
   wsl.enable = true;
-  wsl.defaultUser = "nw";
+  wsl.defaultUser = "noilwhite";
   wsl.docker-desktop.enable = true;
   wsl.useWindowsDriver = true;
 
@@ -32,9 +35,14 @@
     starship
   ];
 
+
   # Install fonts
   fonts.packages = with pkgs; [
     nerd-fonts.fira-code
+    nerd-fonts.droid-sans-mono
+    nerd-fonts.noto
+    nerd-fonts.hack
+    nerd-fonts.ubuntu
   ];
 
   # This value determines the NixOS release from which the default
