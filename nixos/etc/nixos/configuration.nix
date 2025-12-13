@@ -13,12 +13,12 @@
     <nixos-wsl/modules>
   ];
 
-  networking.hostName = "noilwhite-pc";
+  networking.hostName = "pc";
 
   time.timeZone = "Europe/Moscow";
 
   wsl.enable = true;
-  wsl.defaultUser = "noilwhite";
+  wsl.defaultUser = "nw";
   wsl.docker-desktop.enable = true;
   wsl.useWindowsDriver = true;
 
@@ -29,6 +29,7 @@
 
   # Install default system packages
   environment.systemPackages = with pkgs; [
+    gccgo15
     jump
     git
     lazygit
@@ -36,6 +37,7 @@
     vimPlugins.LazyVim
     fish
     starship
+    dbeaver-bin
   ];
 
   programs.fish = {
