@@ -1,7 +1,7 @@
 # Workspace Setup
 
 ## Prerequirements
-Windows with WSL 2.0
+Windows with latest WSL
 
 ## Steps
 1. Install https://github.com/nix-community/NixOS-WSL
