@@ -10,4 +10,4 @@ Windows with WSL 2.0
 4. Open NixOS tab in Windows Terminal then run:
 5. `nix-shell -p git`
 6. `git clone https://github.com/sergey-akhalkov/workspace.git`
-7. `sudo nixos-rebild switch --flake ./workspace/nixos/flake.nix#noilwhite-pc` 
+7. `sudo nixos-rebuild switch --flake ./workspace/nixos/flake.nix#noilwhite-pc` 
