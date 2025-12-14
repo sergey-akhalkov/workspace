@@ -31,7 +31,7 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{a1443c10-1a7b-518b-836a-e76b48e4d62d}",
+    "defaultProfile": "{f09d1bda-7344-4880-9033-564e607944f6}",
     "firstWindowPreference": "defaultProfile",
     "initialCols": 120,
     "initialPosition": "0,0",
@@ -55,7 +55,7 @@
             "keys": "alt+shift+d"
         }
     ],
-    "launchMode": "maximized",
+    "launchMode": "default",
     "newTabMenu": 
     [
         {
@@ -83,17 +83,21 @@
                 "name": "Command Prompt"
             },
             {
-                "colorScheme": "Tokyo Night",
-                "cursorShape": "filledBox",
-                "guid": "{a1443c10-1a7b-518b-836a-e76b48e4d62d}",
+                "commandline": "C:\\WINDOWS\\system32\\wsl.exe --distribution-id {3ce93974-6d4b-4cf0-8e6f-c5a166efb140}",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font"
+                },
+                "guid": "{f09d1bda-7344-4880-9033-564e607944f6}",
                 "hidden": false,
                 "icon": "\u2744\ufe0f",
                 "name": "NixOS",
-                "source": "Microsoft.WSL",
-                "tabTitle": "NixOS"
+                "pathTranslationStyle": "wsl",
+                "startingDirectory": "~"
             }
         ]
     },
+    "rendering.graphicsAPI": "direct3d11",
     "schemes": 
     [
         {
